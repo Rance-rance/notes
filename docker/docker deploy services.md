@@ -92,17 +92,3 @@ nginx
 ```shell
 docker exec -it ngnix nginx -s reload
 ```
-
-## traefik
-
-## influxdb
-
-## telegraf
-
-## grafana
-
-## fatediel/frpc|frps
-
-## clash
-
-## files

@@ -135,4 +135,4 @@ Redlock 算法加锁三个过程：
 
 
 
-参考：[聊聊如何用 Redis 实现分布式锁？ - 小林coding - 博客园 (cnblogs.com)](https://www.cnblogs.com/xiaolincoding/p/16517673.html#:~:text=如何用 Redis 实现分布式锁的？ 分布式锁是用于分布式环境下并发控制的一种机制，用于控制某个资源在同一时刻只能被一个应用所使用。 如下图所示： Redis 本身可以被多个客户端共享访问，正好就是一个共享存储系统，可以用来保存分布式锁，而且 Redis,NX 参数可以实现「key不存在才插入」，所以可以用它来实现分布式锁： 如果 key 不存在，则显示插入成功，可以用来表示加锁成功； 如果 key 存在，则会显示插入失败，可以用来表示加锁失败。)
+参考：[聊聊如何用 Redis 实现分布式锁？ - 小林coding - 博客园 (cnblogs.com)](https://www.cnblogs.com/xiaolincoding/p/16517673.html)
