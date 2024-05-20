@@ -11,9 +11,8 @@ Open the R730 server, press `F11`on the startup interface, enter the `Boot Mange
 After setting up, press the `ESC` key to exit.
 
 ## enable Intel VT-x
-ESXi cannot create a virtual machine without this step
 
-ESXi cannot create a virtual machine
+ESXi cannot create a virtual machine without this step
 
 ## install esxi from usb
 
@@ -38,9 +37,3 @@ Upload the ubuntu server iso file, and the subsequent creation process is simila
 After the installation of the ubnutu virtual machine is completed, prompt `Failed mount....`, Don`t worry about this information, turn off the virtual machine power, edit the virtual machine settings, change the iso file to the host device, and then turn on the virtual machine power again.
 
 ## ESXi ubuntu22.04 ssh perssion deny
-
-
-
-
-
-
